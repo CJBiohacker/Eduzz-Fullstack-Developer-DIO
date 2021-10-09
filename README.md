@@ -22,17 +22,17 @@ Teremos os conceitos básicos das linguagens, com códigos contendo métodos, si
 
 ### :man_technologist: Projetos
 
-#### Projeto 1 - Criando seu Primeiro Repositório no Github para Compartilhar seu Progresso - [ ] Concluído
+#### Projeto 1 - Criando seu Primeiro Repositório no Github para Compartilhar seu Progresso - :black_square_button: Concluído
 Consiste na criação de um repositório utilizando os conhecimentos em Git/Github e Markdown, detalhando com um ReadMe sobre o que existe no repositório e os códigos/pastas envolvidos.
 
-#### Projeto 2 - Criando um front-end totalmente componentizado na prática com ReactJS - [ ] Concluído
+#### Projeto 2 - Criando um front-end totalmente componentizado na prática com ReactJS - :black_square_button: Concluído
 Consiste no desenvolvimento de uma aplicação/solução simples de FrontEnd utilizando o conceito prático de 'Components'.
 
-#### Projeto Extra 1 - Integrand - [ ] Concluído
+#### Projeto Extra 1 - Integrand - :black_square_button: Concluído
 Consisto no desevenolvimento de uma aplicação da Web que mapea os dados do Covid 19 pelo mundo. Neste projeto extra, será utilizado
 os conceitos de JavaScript e ReactJS
 
-#### Projeto Extra 2 - Desenvolvendo uma Progressive Web Application com React para Mapeamento do Covid 19 - [ ] Concluído
+#### Projeto Extra 2 - Desenvolvendo uma Progressive Web Application com React para Mapeamento do Covid 19 - :black_square_button: Concluído
 Consisto no desevenolvimento de uma aplicação da Web que mapea os dados do Covid 19 pelo mundo. Neste projeto extra, será utilizado
 os conceitos de JavaScript e ReactJS
 
