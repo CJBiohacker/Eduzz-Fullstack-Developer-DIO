@@ -18,7 +18,7 @@ Teremos os conceitos básicos das linguagens, com códigos contendo métodos, si
     <li><img src="./Images/nodejs icon.png"> NodeJS </li>
     <li><img src="./Images/docker icon.png"> Docker </li>
     <li><img src="./Images/aws icon.png"> AWS </li>
-<ul>
+</ul>
 
 ### :man_technologist: Projetos
 
@@ -28,12 +28,12 @@ Consiste na criação de um repositório utilizando os conhecimentos em Git/Gith
 #### Projeto 2 - Criando um front-end totalmente componentizado na prática com ReactJS - :black_square_button: Concluído
 Consiste no desenvolvimento de uma aplicação/solução simples de FrontEnd utilizando o conceito prático de 'Components'.
 
-#### Projeto Extra 1 - Integrand - :black_square_button: Concluído
-Consisto no desevenolvimento de uma aplicação da Web que mapea os dados do Covid 19 pelo mundo. Neste projeto extra, será utilizado
+#### Projeto Extra 1 - Integrando um BackEnd em NodeJS com um FrontEnd em ReactJS para um E-Commerce - :black_square_button: Concluído
+Consiste no desenvolvimento de uma aplicação da Web que mapea os dados do Covid 19 pelo mundo. Neste projeto extra, será utilizado
 os conceitos de JavaScript e ReactJS
 
 #### Projeto Extra 2 - Desenvolvendo uma Progressive Web Application com React para Mapeamento do Covid 19 - :black_square_button: Concluído
-Consisto no desevenolvimento de uma aplicação da Web que mapea os dados do Covid 19 pelo mundo. Neste projeto extra, será utilizado
+Consiste no desenvolvimento de uma aplicação da Web que mapea os dados do Covid 19 pelo mundo. Neste projeto extra, será utilizado
 os conceitos de JavaScript e ReactJS
 
 ### :woman_teacher: :man_teacher: Mentorias
