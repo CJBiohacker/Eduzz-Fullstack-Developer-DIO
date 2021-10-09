@@ -9,16 +9,17 @@ O repositório será estruturando entre pastas para cada assunto específico.  T
 
 Teremos os conceitos básicos das linguagens, com códigos contendo métodos, sintaxes, regras, etc com comentários que tentem resumir meu entendimento do assunto estudado. As linguagens/extensões/frameworks/CLI's envolvidos no Bootcamp serão: 
 <ul> 
-    <li><img src="./Images/markdown-icon.png"> </li> 
-    <li><img src="./Images/html icon.png"></li>
-    <li><img src="./Images/css icon.png"></li>
-    <li><img src="./Images/js icon.png"></li>
-    <li><img src="./Images/typescript icon.png"></li>
-    <li><img src="./Images/reactjs icon.png"></li>
-    <li><img src="./Images/nodejs icon.png"></li>
-    <li><img src="./Images/docker icon.png"></li>
-    <li><img src="./Images/aws icon.png"></li>
+    <li><img src="./Images/markdown-icon.png"> Markdown </li> 
+    <li><img src="./Images/html icon.png"> HTML </li>
+    <li><img src="./Images/css icon.png"> CSS </li>
+    <li><img src="./Images/js icon.png"> JavaScript </li>
+    <li><img src="./Images/typescript icon.png"> TypeScript </li>
+    <li><img src="./Images/reactjs icon.png"> ReactJS e React Native </li>
+    <li><img src="./Images/nodejs icon.png"> NodeJS </li>
+    <li><img src="./Images/docker icon.png"> Docker </li>
+    <li><img src="./Images/aws icon.png"> AWS </li>
 <ul>
+
 ### :man_technologist: Projetos
 
 #### Projeto 1 - Criando seu Primeiro Repositório no Github para Compartilhar seu Progresso - [ ] Concluído
