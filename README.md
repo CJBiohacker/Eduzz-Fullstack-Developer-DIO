@@ -8,7 +8,8 @@ O repositório será estruturando entre pastas para cada assunto específico.  T
 ### :computer: Linguagens
 
 Teremos os conceitos básicos das linguagens, com códigos contendo métodos, sintaxes, regras, etc com comentários que tentem resumir meu entendimento do assunto estudado. As linguagens/extensões/frameworks/CLI's envolvidos no Bootcamp serão: 
-<img src="./Images/markdown-icon 1.png">
+<ul> 
+    <li><img src="./Images/markdown-icon 1.png"> </li> 
  HTML
  "ícone" CSS
  "ícone" JavaScript
@@ -18,7 +19,7 @@ Teremos os conceitos básicos das linguagens, com códigos contendo métodos, si
  "ícone" NodeJS
  "ícone" Docker
  "ícone" AWS Cloud Service
-
+<ul>
 ### :man_technologist: Projetos
 
 #### Projeto 1 - Criando seu Primeiro Repositório no Github para Compartilhar seu Progresso - [ ] Concluído
