@@ -12,7 +12,7 @@ Teremos os conceitos básicos das linguagens, com códigos contendo métodos, si
     <li><img src="./Images/markdown-icon.png"> Markdown </li> 
     <li><img src="./Images/html icon.png"> HTML </li>
     <li><img src="./Images/css icon.png"> CSS </li>
-    <li><img src="./Images/js icon 1.png"> JavaScript </li>
+    <li><img src="./Images/js icon.png"> JavaScript </li>
     <li><img src="./Images/typescript icon.png"> TypeScript </li>
     <li><img src="./Images/reactjs icon.png"> ReactJS e React Native </li>
     <li><img src="./Images/nodejs icon.png"> NodeJS </li>
