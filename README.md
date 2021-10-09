@@ -8,7 +8,7 @@ O repositório será estruturando entre pastas para cada assunto específico.  T
 ### :computer: Linguagens
 
 Teremos os conceitos básicos das linguagens, com códigos contendo métodos, sintaxes, regras, etc com comentários que tentem resumir meu entendimento do assunto estudado. As linguagens/extensões/frameworks/CLI's envolvidos no Bootcamp serão: 
-<img src="./Images/js icon.png" >
+<img src="./Images/markdown-icon 1.png">
  HTML
  "ícone" CSS
  "ícone" JavaScript
