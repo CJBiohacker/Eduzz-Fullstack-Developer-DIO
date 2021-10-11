@@ -3,7 +3,7 @@
 Códigos, aulas, monitorias e projetos realizados no Bootcamp de FullStack da Eduzz através da plataforma de ensino Digital Innovation One. 
 
 ## :clipboard: Estruturação do Repositório
-O repositório será estruturando entre pastas para cada assunto específico.  Teremos pastas separadas para cada projeto desenvolvido durante o Bootcamp, seguindo o mesmo padrão com os comentários e explicações de cada etapa/bloco ou linha de código. Teremos também outra pasta especial para as hard skills desenvolvidas dentro das mentorias programadas no durante o progresso do bootcamp. E por final, teremos cada código salvo dos desafios propostos em cada módulo de desafio do Bootcamp.
+O repositório será estruturando entre pastas para cada assunto específico.  Teremos pastas separadas para cada projeto desenvolvido durante o Bootcamp, seguindo o mesmo padrão com os comentários e explicações de cada etapa/bloco ou linha de código. Teremos também outra pasta especial para as hard skills desenvolvidas dentro das mentorias programadas durante o progresso do bootcamp. E por final, teremos cada código salvo dos desafios propostos em cada módulo do Bootcamp.
 
 ### :computer: Linguagens
 
@@ -51,7 +51,8 @@ Aprendizado sobre criação de elementos altamente reaprovetáveis no FrontEnd.
 #### Mentoria 3 (05) - Projeto Eduzz: Criando a base de dados pra suportar a aplicação - :black_square_button:
 Aprendizado sobre armazenamento dos dados da aplicação de maneira segura e eficiente. 
 
-#### Mentoria 4 (06) - Desenvolvendo uma Progressive Web Application com React para Mapeamento do Covid 19 - :black_square_button:
+#### Mentoria 4 (06) - Desenvolvendo o BackEnd da aplicação e plugando o front-end - :black_square_button:
+Aprendizado sobre a construção do "coração" da aplicação, desde as regras de negócios até a implementação de código.
 
 #### Mentoria 5 (07) - Projeto Eduzz: Entendendo e utilizado serviços de mensageria - :black_square_button:
 Aprendizado sobre os serviços de mensageria, em quais cenários aplicar e por que é um dos elementos essenciais para Dev's atualmente (2021).
