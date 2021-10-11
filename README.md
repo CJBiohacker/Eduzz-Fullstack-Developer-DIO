@@ -22,7 +22,7 @@ Teremos os conceitos básicos das linguagens, com códigos contendo métodos, si
 
 ### :man_technologist: Projetos
 
-#### Projeto 1 - Criando seu Primeiro Repositório no Github para Compartilhar seu Progresso - :black_square_button:
+#### Projeto 1 - Criando seu Primeiro Repositório no Github para Compartilhar seu Progresso - :white_check_mark:
 Consiste na criação de um repositório utilizando os conhecimentos em Git/Github e Markdown, detalhando com um ReadMe sobre o que existe no repositório e os códigos/pastas envolvidos.
 
 #### Projeto 2 - Criando seu jogo de memória estilo Genius - :black_square_button:
