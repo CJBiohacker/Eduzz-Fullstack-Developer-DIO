@@ -84,7 +84,7 @@ interface Humano {
 }
 
 interface HomoSapiens extends Humano {
-    inteligência: 'Baixa' | 'Média' | 'Avançada'
+    inteligencia: 'Baixa' | 'Média' | 'Avançada'
     postura: 'Ereta'
 }
 
@@ -92,17 +92,40 @@ interface Sahelanthropus extends Humano {
     mobilidade: 'Quadrúpede' | 'Bípede'
 }
 
-// Type de relação entre as 2 interfaces.
+// Type de relação entre as 2 interfaces. ('LEFT OU RIGHT JOIN')
 type SubFamiliaHumano = HomoSapiens | Sahelanthropus;
 
 const humano: SubFamiliaHumano = {
-    nome: 'Michael J Vincent',
+    nome: 'Jan-Michael Vincent',
     cor: 'Branco',
-    altura: 1.72,
-    peso: 79,
+    altura: 1.79,
+    peso: 75,
     mobilidade: 'Bípede',
-    inteligência: "Média",
+}
+
+console.log(`Nome: ${humano.nome} 
+Cor: ${humano.cor}
+Altura: ${humano.altura}m
+Peso: ${humano.peso}kg
+Mobilidade: ${humano.mobilidade}`);
+
+// Type de relação entre as 2 interfaces. ('UNION JOIN')
+type SubFamiliaHumanoHibrida = HomoSapiens & Sahelanthropus;
+
+const humanoideHibrido: SubFamiliaHumanoHibrida = {
+    nome: 'Morty Smith',
+    cor: 'Branco',
+    altura: 1.60,
+    peso: 54,
+    mobilidade: 'Bípede',
+    inteligencia: "Média",
     postura: "Ereta"
 }
 
-console.log();
+console.log(`Nome: ${humanoideHibrido.nome} 
+Cor: ${humanoideHibrido.cor}
+Altura: ${humanoideHibrido.altura}m
+Peso: ${humanoideHibrido.peso}kg
+Inteligência: ${humanoideHibrido.inteligencia}
+Mobilidade: ${humanoideHibrido.mobilidade}
+Postura: ${humanoideHibrido.postura}`);
