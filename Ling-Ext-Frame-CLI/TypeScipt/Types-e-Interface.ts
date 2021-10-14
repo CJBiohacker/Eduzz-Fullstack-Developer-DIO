@@ -2,7 +2,7 @@
 alert('Pressione F12 e verifique a lista do Console do navegador.')
 console.log('Introdução ao TypeScript');
 
-function soma(a, b: number) {                           // Tipagem de variável/constante. Característica específica do TypeScript.
+function soma(a: number, b: number) {                           // Tipagem de variável/constante. Característica específica do TypeScript.
     let sum = (a + b);
     return console.log(`Soma ${a} + ${b} = ${sum}`);
 }
@@ -130,3 +130,5 @@ Peso: ${humanoideHibrido.peso}kg
 Inteligência: ${humanoideHibrido.inteligencia}
 Mobilidade: ${humanoideHibrido.mobilidade}
 Postura: ${humanoideHibrido.postura}`);
+
+export { Monstro };
