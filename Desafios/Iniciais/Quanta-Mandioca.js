@@ -5,15 +5,9 @@ Os meses de Junho e Julho são tradicionalmente conhecidos por todo Brasil por s
     O Bernardo come 600
     A Marina 1000
     A Iara come 150
-
 Marlene por sua vez sempre come 225 gramas de mandioca. Cansada de todo ano ter que calcular quanta mandioca preparar ela te desafiou para escrever um programa que informe quanta mandioca deve ser preparada em gramas.
-Entrada
-
 A entrada consiste de 5 inteiros cada um representando as porções que os convidados de dona Chica vão consumir. O primeiro inteiro representa as porções do Chico, o segundo do Bento, o terceiro do Bernardo, o quarto da Marina e o quinto a da Iara.
-Saída
-
 A saída consiste de um único inteiro que representa quanta mandioca Marlene deve preparar em gramas.
-
 */
 
 let porcao = Math.floor(Math.random() * 5)                          // Gera um nº aleatório de 0 à 5, com arredondamento pra cima.
