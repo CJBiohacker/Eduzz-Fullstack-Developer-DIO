@@ -12,9 +12,9 @@ Para cada caso mostre o resultado da divisão com um dígito após o ponto decim
 
 let x = Math.round(Math.random() * 100);
 let y = Math.round(Math.random() * 100);
-let N = 100;
+let N = 5;
 
-console.log("Digite quantas divisões serão realizadas:", N);
+console.log(`Digite quantas divisões serão realizadas: ${N}\n`);
 
 for (let i = 1; i <= N; i++) {
 
@@ -22,10 +22,9 @@ for (let i = 1; i <= N; i++) {
     console.log("Digite o valor de y. => y = ", y);
 
     if (x == 0) {
-        console.log("Divisão impossível !!!");
+        console.log(`Divisão nº ${i} é impossível`);
     } else {
-        console.log(x / y);
-
+        console.log(`Divisão nº ${i} = ${(x / y).toFixed(1)}\n`);
     }
     x = Math.round(Math.random() * 100);
     y = Math.round(Math.random() * 100);
