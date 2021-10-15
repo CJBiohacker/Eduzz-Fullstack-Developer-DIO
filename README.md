@@ -22,7 +22,7 @@ Teremos os conceitos básicos das linguagens, com códigos contendo métodos, si
 
 ### :man_technologist: Projetos
 
-#### Projeto 1 - Criando seu Primeiro Repositório no Github para Compartilhar seu Progresso - :white_check_mark:
+#### Projeto 1 - Criando seu Primeiro Repositório no Github para Compartilhar seu Progresso - :green_check_mark:
 Consiste na criação de um repositório utilizando os conhecimentos em Git/Github e Markdown, detalhando com um ReadMe sobre o que existe no repositório e os códigos/pastas envolvidos.
 
 #### Projeto 2 - Criando seu jogo de memória estilo Genius - :black_square_button:
@@ -63,7 +63,7 @@ Aprendizado sobre as vantagens da computação em nuvem e por que o Dev deveria 
 ### :bomb: Desafios
 Desafios em JavaScript propostos pela Digital Innovation One para prática dos conceitos teóricos necessários para a conclusão do Bootcamp e emissão do certificado.
 
-#### Desafios Iniciais em JavaScript - :white_check_mark:
+#### Desafios Iniciais em JavaScript - :green_check_mark:
 
 #### Desafios Básicos em JavaScript - :black_square_button:
 
