@@ -13,3 +13,11 @@ Saída
 
 Imprima o tempo necessário para a moto Y ficar com a quantidade K de quilômetro da moto X, seguido da mensagem " minutos".
 */
+
+let x = Math.floor(Math.random() * 1000);
+let y = x / 2;
+let K = x - y;
+
+let tempoDistancia = K * 2;
+
+console.log("A moto X está na posição de ", x);
