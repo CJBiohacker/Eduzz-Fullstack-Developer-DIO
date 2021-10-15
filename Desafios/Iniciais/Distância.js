@@ -20,4 +20,7 @@ let K = x - y;
 
 let tempoDistancia = K * 2;
 
-console.log("A moto X está na posição de ", x);
+console.log("A moto X está na posição: ", x, 'km');
+console.log("A moto Y está na posição: ", y, 'km');
+
+console.log(`A moto Y vai demorar ${K} minutos para alcançar a posição de X.`);
