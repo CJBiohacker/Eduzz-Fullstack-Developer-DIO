@@ -1,3 +1,9 @@
+// CORES DO GENIUS
+$bt-vm: #F91E08;
+$bt-vd: #03D534;
+$bt-az: #04C7E7;
+$bt-am: #FBFE0D;
+
 body {
    margin: 0;
    background-color:rgb(197, 223, 204); 
@@ -5,39 +11,50 @@ body {
    .background {
       height: 100vh;
       width: 100vw;
-      display: flex;
-      justify-content: center;      
-      align-items: center;
+      display: flex;                           // Aplica a organização dos elementos em bloco, ocupando o espaço máximo dentro da div.
+      justify-content: center;                 // Centraliza o bloco visual dos botões na horizontal.
+      align-items: center;                     // Centraliza o bloco visual dos botões na vertical.
 
       .main-screen {
-         display: grid;
-         grid-template-areas:
-         'green red'
+         display: grid;                        // Organiza em grade os 'botões' dentro da 'div'.
+         grid-template-areas:                  // Organiza a distribuição da grade em 'quarteto' com os nomes identificadores.
+         'green red'                      
          'yellow blue'; 
-         grid-gap: 10px;
-         border: 0.5px solid white;
+         grid-gap: 15px;                       // Espaçamento entre cada botão colorido, no 'quarteto'.
+         border: 0px solid white;
          background-color: white;
-         border-radius: 100%;
+         border-radius: 100%;                  // Raio da borda, criando formato circular. (Semelhante ao formato do jogo Genius)
          height: 650px;
          width: 650px;        
 
          .green {
-
+            grid-area: green;                // Atribui o nome identificador 'green' da propriedade 'grid-template-areas' à este elemento.
+            background-color: $bt-vd;          // Define a cor de fundo.
+            border-top-left-radius: 100%;      // Define o raio da borda, seguindo a orientação circular. (Topo-Esquerda)
          }
 
          .red {
-           
+            grid-area: red;                  // Atribui o nome identificador 'red' da propriedade 'grid-template-areas' à este elemento.
+            background-color:$bt-vm;           // Define a cor de fundo.
+            border-top-right-radius: 100%;     // Define o raio da borda, seguindo a orientação circular. (Topo-Direita)
          }
 
          .blue {
-
+            grid-area: blue;                 // Atribui o nome identificador 'blue' da propriedade 'grid-template-areas' à este elemento.
+            background-color: $bt-az;          // Define a cor de fundo.
+            border-bottom-right-radius: 100%;  // Define o raio da borda, seguindo a orientação circular. (Fundo-Direita)
          }
 
          .yellow {
-
+            grid-area: yellow;               // Atribui o nome identificador 'yellow' da propriedade 'grid-template-areas' à este elemento.
+            background-color: $bt-am;          // Define a cor de fundo.
+            border-bottom-left-radius: 100%;   // Define o raio da borda, seguindo a orientação circular. (Fundo-Esquerda)
          }
 
-
+         .selected {
+            opacity: 0.5;
+         }
+         
       }
    }
 }
