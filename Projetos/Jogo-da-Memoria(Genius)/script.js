@@ -1,6 +1,6 @@
 let ordem = [];                 // Array com a sequência de desafio do jogo.
 let ordemClicada = [];          // Array com a sequência jogada pelo usuário.
-let pontuacao;                  // Contagem de pontos do usuário
+let pontuacao = 0;                  // Contagem de pontos do usuário
 
 // Método DOM pra 'chamada' dos 'botões' de cada cor do jogo.
 const verde = document.querySelector('.green');
@@ -22,28 +22,28 @@ let randomizarOrdem = () => {
 
 // Contador de tempo pra iluminar e apagar a cor.
 let iluminarCor = (elemento, numero) => {
-    tempo = tempo * 500;
+    numero = numero * 500;
     setTimeout(() => {
         elemento.classList.add('selected');
-    }, tempo - 150);
+    }, numero - 250);
     setTimeout(() => {
         elemento.classList.remove('selected');
     });
 };
 
+
 // Estrutura de repetição que compara cada posição clicada com a sequência de desafio.
 let checaOrdem = () => {
     for (let i in ordemClicada) {
-        if (ordemClicada[i] !== ordem[i]) {
+        if (ordemClicada[i] != ordem[i]) {
             derrota();
             break;
         }
     }
-    if (ordemClicada.length === ordem) {
-        alert(`Você acertou a sequência\nPontuação atual: ${pontuacao}`)
+    if (ordemClicada.length == ordem.length) {
+        alert(`Você acertou a sequência!!!\nPontuação atual: ${pontuacao}`)
         proximoNivel();
     }
-
 };
 
 // Função de clique do Usuário
@@ -66,7 +66,7 @@ let criarCorElemento = (cor) => {
         return vermelho;
     } else if (cor == 3) {
         return azul;
-    } else {
+    } else if (cor == 4) {
         return amarelo;
     }
 }
@@ -94,9 +94,10 @@ let jogarJogo = () => {
     proximoNivel();
 };
 
-verde.addEventListener('Clique', clicar(1));
-vermelho.addEventListener('Clique', clicar(2));
-azul.addEventListener('Clique', clicar(3));
-amarelo.addEventListener('Clique', clicar(4));
+// Eventos de clique para cada cor.
+verde.onclick = () => clicar(1);
+vermelho.onclick = () => clicar(2);
+azul.onclick = () => clicar(3);
+amarelo.onclick = () => clicar(4);
 
-jogarJogo()
+jogarJogo();
