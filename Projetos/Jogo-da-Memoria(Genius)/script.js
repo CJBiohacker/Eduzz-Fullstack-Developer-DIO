@@ -53,9 +53,9 @@ let clicar = (cor) => {
 
     setTimeout(() => {
         criarCorElemento(cor).classList.remove('selected');
-    });
+        checaOrdem();
+    }, 250);
 
-    checaOrdem();
 };
 
 // Função condicional que retorna as cores (relação de número e cor). - [1 = verde , 2 = vermelho , 3 = azul , 4 = amarelo]
@@ -82,6 +82,19 @@ let fimDeJogo = () => {
     alert(`ERRRROOOOUUUUU!!!\nPontuação final: ${pontuacao}`);
     ordem = [];
     ordemClicada = [];
+
+    jogarJogo();
 };
 
+// Função pra iniciar um novo jogo.
+let jogarJogo = () => {
+    alert("Uma sequência aleatória das cores será gerada ! Seu objetivo é repetir a sequência! Preparado para o desafio ?!?!");
+    pontuacao = 0;
 
+    proximoNivel();
+};
+
+verde.addEventListener('Clique', clicar);
+vermelho.addEventListener('Clique', clicar);
+azul.addEventListener('Clique', clicar);
+amarelo.addEventListener('Clique', clicar);
