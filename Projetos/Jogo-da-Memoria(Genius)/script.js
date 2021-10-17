@@ -1,6 +1,3 @@
-// Relação entre número e cor.
-// 1 = verde , 2 = vermelho , 3 = azul , 4 = amarelo
-
 let ordem = [];                 // Array com a sequência de desafio do jogo.
 let ordemClicada = [];          // Array com a sequência jogada pelo usuário.
 let pontuacao;                  // Contagem de pontos do usuário
@@ -52,5 +49,39 @@ let checaOrdem = () => {
 // Função de clique do Usuário
 let clicar = (cor) => {
     ordemClicada[ordemClicada.length] = cor;
-    elementoCor(cor).classList.add('selected');
+    criarCorElemento(cor).classList.add('selected');
+
+    setTimeout(() => {
+        criarCorElemento(cor).classList.remove('selected');
+    });
+
+    checaOrdem();
 };
+
+// Função condicional que retorna as cores (relação de número e cor). - [1 = verde , 2 = vermelho , 3 = azul , 4 = amarelo]
+let criarCorElemento = (cor) => {
+    if (cor == 1) {
+        return verde;
+    } else if (cor == 2) {
+        return vermelho;
+    } else if (cor == 3) {
+        return azul;
+    } else {
+        return amarelo;
+    }
+}
+
+// Função que passa pro próximo nível do jogo.
+let proximoNivel = () => {
+    pontuacao++;
+    randomizarOrdem();
+}
+
+// Função de Fim de Jogo (Game Over).
+let fimDeJogo = () => {
+    alert(`ERRRROOOOUUUUU!!!\nPontuação final: ${pontuacao}`);
+    ordem = [];
+    ordemClicada = [];
+};
+
+
