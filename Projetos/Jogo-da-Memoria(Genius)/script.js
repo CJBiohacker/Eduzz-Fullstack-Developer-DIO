@@ -94,7 +94,9 @@ let jogarJogo = () => {
     proximoNivel();
 };
 
-verde.addEventListener('Clique', clicar);
-vermelho.addEventListener('Clique', clicar);
-azul.addEventListener('Clique', clicar);
-amarelo.addEventListener('Clique', clicar);
+verde.addEventListener('Clique', clicar(1));
+vermelho.addEventListener('Clique', clicar(2));
+azul.addEventListener('Clique', clicar(3));
+amarelo.addEventListener('Clique', clicar(4));
+
+jogarJogo()
