@@ -1,0 +1,43 @@
+body {
+   margin: 0;
+   background-color:rgb(197, 223, 204); 
+
+   .background {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;      
+      align-items: center;
+
+      .main-screen {
+         display: grid;
+         grid-template-areas:
+         'green red'
+         'yellow blue'; 
+         grid-gap: 10px;
+         border: 0.5px solid white;
+         background-color: white;
+         border-radius: 100%;
+         height: 650px;
+         width: 650px;        
+
+         .green {
+
+         }
+
+         .red {
+           
+         }
+
+         .blue {
+
+         }
+
+         .yellow {
+
+         }
+
+
+      }
+   }
+}
