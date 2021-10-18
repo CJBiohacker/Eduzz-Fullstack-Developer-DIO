@@ -1,6 +1,7 @@
 let ordem = [];                 // Array com a sequência de desafio do jogo.
 let ordemClicada = [];          // Array com a sequência jogada pelo usuário.
-let pontuacao = 0;                  // Contagem de pontos do usuário
+let pontuacao = 0;              // Contagem de pontos do usuário
+let nivel = 0;                  // Marcador do nível.
 
 // Método DOM pra 'chamada' dos 'botões' de cada cor do jogo.
 const verde = document.querySelector('.green');
@@ -36,12 +37,12 @@ let iluminarCor = (elemento, numero) => {
 let checaOrdem = () => {
     for (let i in ordemClicada) {
         if (ordemClicada[i] != ordem[i]) {
-            derrota();
+            fimDeJogo();
             break;
         }
     }
     if (ordemClicada.length == ordem.length) {
-        alert(`Você acertou a sequência!!!\nPontuação atual: ${pontuacao}`)
+        alert(`Você acertou a sequência!!!\nPontuação atual: ${pontuacao} - Nível atual:${nivel}`)
         proximoNivel();
     }
 };
@@ -73,7 +74,14 @@ let criarCorElemento = (cor) => {
 
 // Função que passa pro próximo nível do jogo.
 let proximoNivel = () => {
+    let adcPontoPlacar = document.getElementById("score-text");         // Método DOM que busca o id da tag de pontuação.
+    let adcNivelPlacar = document.getElementById("level-text");         // Método DOM que busca o id da tag de nível.
+
     pontuacao++;
+    nivel++;
+    adcPontoPlacar.textContent = pontuacao - 1;                         // Modifica a tag de pontuação na página HTML.
+    adcNivelPlacar.textContent = nivel;                                 // Modifica a tag de nível na página HTML.
+
     randomizarOrdem();
 }
 
@@ -90,6 +98,7 @@ let fimDeJogo = () => {
 let jogarJogo = () => {
     alert("Uma sequência aleatória das cores será gerada ! Seu objetivo é repetir a sequência! Preparado para o desafio ?!?!");
     pontuacao = 0;
+    nivel = 0;
 
     proximoNivel();
 };
