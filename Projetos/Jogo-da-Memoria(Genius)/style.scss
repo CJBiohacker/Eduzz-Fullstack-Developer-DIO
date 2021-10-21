@@ -43,32 +43,11 @@ body {
         text-align: center;
 
         .score-text {
-          width: 100px;
-          height: 100px;
-          position: relative;
-          animation-name: numberturn;
-          animation-duration: 2s;
-          animation-iteration-count: 10;
-          @keyframes numberturn {
-            0% {
-              transform: rotateX(0deg);
-            }
-            25% {
-              transform: rotateX(90deg);
-            }
-            50% {
-              transform: rotateX(180deg);
-            }
-            75% {
-              transform: rotateX(270deg);
-            }
-            100% {
-              transform: rotateX(360deg);
-            }
-          }
+        
         }
 
         .score-count {
+         
         }
       }
 
@@ -76,8 +55,11 @@ body {
         text-align: center;
 
         .level-text {
+        
         }
+        
         .level-count {
+          
         }
       }
     }
