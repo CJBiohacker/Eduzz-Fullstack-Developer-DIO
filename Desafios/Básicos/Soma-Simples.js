@@ -12,3 +12,11 @@ Saída
 Imprima a variável SOMA com todas as letras maiúsculas, inserindo um espaço em branco antes e depois do símbolo de igualdade, seguido pelo valor correspondente à soma de A e B.
 
 */
+let A = Math.floor(Math.random() * 1000);
+let B = Math.floor(Math.random() * 1000);
+
+let SOMA = (n1, n2) => {
+    return (n1 + n2);
+};
+
+print("SOMA = " + SOMA(A, B));

@@ -65,7 +65,7 @@ Desafios em JavaScript propostos pela Digital Innovation One para prática dos c
 
 #### Desafios Iniciais em JavaScript - :white_check_mark:
 
-#### Desafios Básicos em JavaScript - :black_square_button:
+#### Desafios Básicos em JavaScript - :white_check_mark:
 
 #### Desafios Médios em JavaScript - :black_square_button:
 

@@ -12,7 +12,7 @@ Exiba o valor lido e a quantidade mínima de notas de cada tipo necessárias, se
 
 */
 
-let valor = parseInt(gets());
+let valor = Math.floor(Math.random() * 1000);
 let x = valor;
 
 // Math.floor ==> Arredonda pro número inteiro inferior mais próximo. Utilizado pra alcançar o número exato de notas de cada valor.
@@ -30,35 +30,10 @@ let notas2 = Math.floor(e / 2);
 let f = (e - (notas2 * 2));
 let notas1 = Math.floor(f);
 
-
-if (valor >= 100) {                    // 576 >= 100 ==> TRUE
-    notas100                           // 576/100 = 5,76 ==> arredondando pra 5
-} else {
-    if (a >= 50) {                     // 76 >= 50  ==> TRUE
-        notas50                        // 76/50 = 1,52 ==> arredondando pra 1
-    } else {
-        if (b >= 20) {                 // 26 >= 20 ==> TRUE
-            notas20                    // 26/20 = 2,6 ==> arredondando pra 2
-        } else {
-            if (c >= 10) {             // 6 >= 10 ==> FALSE
-                notas10                // 6/10 = 0,6 ==> arredondando pra 2
-            } else {
-                if (d >= 5) {          // 6 >= 5 ==> TRUE
-                    notas5             // 6/5 = 1,2 ==> arredondando pra 1
-                } else {
-                    if (e >= 2) {      // 1 >= 2 ==> FALSE
-                        notas2         //
-                    } else {
-                        if (f >= 1) {  // 1 >= 1 
-                            notas1     //
-                        }
-                    }
-                }
-            }
-        }
-    }
-};
-
+// Sistem de contagem baseado em condicionais. Hipótese de que o nº seja R$576,00.
+// Estrutura Condicional Ternária
+(valor >= 100) ? notas100 : (a >= 50) ? notas50 : (b >= 20) ? notas20 :
+    (c >= 10) ? notas10 : (d >= 5) ? notas5 : (e >= 2) ? notas2 : notas1;
 
 console.log(valor);
 console.log(`${notas100} nota(s) de R$ 100,00`);
@@ -68,3 +43,34 @@ console.log(`${notas10} nota(s) de R$ 10,00`);
 console.log(`${notas5} nota(s) de R$ 5,00`);
 console.log(`${notas2} nota(s) de R$ 2,00`);
 console.log(`${notas1} nota(s) de R$ 1,00`);
+
+
+
+// Estrutura Condicional Tradicional (Opcional)
+// if (valor >= 100) {                    // 576 >= 100 ==> TRUE
+//     notas100                           // 576/100 = 5,76 ==> arredondando pra 5
+// } else {
+//     if (a >= 50) {                     // 76 >= 50  ==> TRUE
+//         notas50                        // 76/50 = 1,52 ==> arredondando pra 1
+//     } else {
+//         if (b >= 20) {                 // 26 >= 20 ==> TRUE
+//             notas20                    // 26/20 = 2,6 ==> arredondando pra 2
+//         } else {
+//             if (c >= 10) {             // 6 >= 10 ==> FALSE
+//                 notas10                // 6/10 = 0,6 ==> arredondando pra 2
+//             } else {
+//                 if (d >= 5) {          // 6 >= 5 ==> TRUE
+//                     notas5             // 6/5 = 1,2 ==> arredondando pra 1
+//                 } else {
+//                     if (e >= 2) {      // 1 >= 2 ==> FALSE
+//                         notas2         //
+//                     } else {
+//                         if (f >= 1) {  // 1 >= 1 
+//                             notas1     //
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// };

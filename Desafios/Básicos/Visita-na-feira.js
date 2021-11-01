@@ -11,3 +11,9 @@ Saída
 Imprimir a mensagem "X = " (sendo a letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Assegure que exista um espaço antes e depois do sinal de igualdade.
 
 */
+
+let A = Math.floor(Math.random() * 1000);
+let B = Math.floor(Math.random() * 1000);
+let total = (A + B);
+
+console.log("X = " + total);
