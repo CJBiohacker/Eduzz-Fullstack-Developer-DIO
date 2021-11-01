@@ -42,11 +42,11 @@ os conceitos de JavaScript e ReactJS
 Nesta pasta teremos os conteúdos técnicos (hard skills) ministrados pelos especialistas durante as etapas de monitoria do Bootcamp.
 Apesar de existirem monitorias de soft skills e de carreira, aqui teremos apenas as mentorias técnicas.
 
-#### Mentoria 1 (03) - Projeto Eduzz: Explicando e prototipando a aplicação - :black_square_button:
+#### Mentoria 1 (03) - Projeto Eduzz: Explicando e prototipando a aplicação - :white_check_mark:
 Aprendizado sobre as melhores práticas na hora de criar um protótipo de uma aplicação.
 
 #### Mentoria 2 (04) - Projeto Eduzz: Componentizando a aplicação e criano interfaces Web e Mobile - :black_square_button:
-Aprendizado sobre criação de elementos altamente reaprovetáveis no FrontEnd.
+Aprendizado sobre criação de elementos altamente reaproveitáveis no FrontEnd.
 
 #### Mentoria 3 (05) - Projeto Eduzz: Criando a base de dados pra suportar a aplicação - :black_square_button:
 Aprendizado sobre armazenamento dos dados da aplicação de maneira segura e eficiente. 
