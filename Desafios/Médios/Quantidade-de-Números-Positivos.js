@@ -15,17 +15,10 @@ Exiba uma mensagem dizendo quantos valores positivos foram lidos. assim como é 
 let total = 0;
 let i = 0;
 let valor;
+valor = [0, 15, -3, -2, -5, 12];
 
-while (i <= 6) {
-    valor = parseFloat(gets());
-
-    if (valor > 0) {            // CONVERTER PARA IF TERNÁRIO
-        total++;
-
-    }
-
-    i++;
-
+for (const num of valor) {
+    (num > 0) ? total++ : null;
 }
 
-print(`${total} valores positivos`);
+console.log(`${total} valores positivos`);

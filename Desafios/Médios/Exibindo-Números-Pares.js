@@ -12,8 +12,8 @@ Exiba todos os números pares até o valor de entrada, sendo um em cada linha.
 
 */
 
-var N = parseInt(gets());
+var N = Math.floor(Math.random() * 20);
 
-for (let num = 2; num <= N; num += 2) {         // VER SE É POSSÍVEL CONVERTER PARA FOR...IN OU FOR...OF
+for (let num = 2; num <= N; num += 2) {
     console.log(num);
 }

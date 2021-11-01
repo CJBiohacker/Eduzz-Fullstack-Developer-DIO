@@ -11,3 +11,11 @@ Saída
 Exiba o número e o salário do colaborador, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
 
 */
+
+let idFunc = Math.floor(Math.random() * 50);
+let horasTrab = Math.floor(Math.random() * 160);
+let valorHoraTrab = (Math.random() * 250).toFixed(2);
+let salario = horasTrab * valorHoraTrab; // Digite aqui o calculo do salário
+
+console.log(`NUMBER = ${idFunc}`);
+console.log(`SALARY = U$ ${salario.toFixed(2)}`);
