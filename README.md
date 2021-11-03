@@ -1,10 +1,10 @@
 # Eduzz-Fullstack-Developer-DIO
-***
+**
 
 Códigos, aulas, monitorias e projetos realizados no Bootcamp de FullStack da Eduzz através da plataforma de ensino Digital Innovation One. 
 
 ## :clipboard: Estruturação do Repositório
-***
+**
 O repositório será estruturando entre pastas para cada assunto específico.  Teremos pastas separadas para cada projeto desenvolvido durante o Bootcamp, seguindo o mesmo padrão com os comentários e explicações de cada etapa/bloco ou linha de código. Teremos também outra pasta especial para as hard skills desenvolvidas dentro das mentorias programadas durante o progresso do bootcamp. E por final, teremos cada código salvo dos desafios propostos em cada módulo do Bootcamp.
 
 ### :computer: Linguagens
@@ -66,6 +66,7 @@ Aprendizado sobre os serviços de mensageria, em quais cenários aplicar e por q
 Aprendizado sobre as vantagens da computação em nuvem e por que o Dev deveria estar pensando cada vez mais na computação em nuvem.
 
 ### :bomb: Desafios
+***
 Desafios em JavaScript propostos pela Digital Innovation One para prática dos conceitos teóricos necessários para a conclusão do Bootcamp e emissão do certificado.
 
 #### Desafios Iniciais em JavaScript - :white_check_mark:
