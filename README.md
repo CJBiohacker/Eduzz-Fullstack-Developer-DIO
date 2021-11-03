@@ -1,9 +1,9 @@
 # Eduzz-Fullstack-Developer-DIO
-***
+
 Códigos, aulas, monitorias e projetos realizados no Bootcamp de FullStack da Eduzz através da plataforma de ensino Digital Innovation One. 
 
 ## :clipboard: Estruturação do Repositório
-***
+
 O repositório será estruturando entre pastas para cada assunto específico.  Teremos pastas separadas para cada projeto desenvolvido durante o Bootcamp, seguindo o mesmo padrão com os comentários e explicações de cada etapa/bloco ou linha de código. Teremos também outra pasta especial para as hard skills desenvolvidas dentro das mentorias programadas durante o progresso do bootcamp. E por final, teremos cada código salvo dos desafios propostos em cada módulo do Bootcamp.
 
 ### :computer: Linguagens
@@ -41,8 +41,7 @@ os conceitos de JavaScript e ReactJS
 
 ### :woman_teacher: :man_teacher: Mentorias
 ***
-Nesta pasta teremos os conteúdos técnicos (hard skills) ministrados pelos especialistas durante as etapas de monitoria do Bootcamp.
-Apesar de existirem monitorias de soft skills e de carreira, aqui teremos apenas as mentorias técnicas.
+Nesta pasta teremos os conteúdos técnicos (hard skills) ministrados pelos especialistas durante as etapas de monitoria do Bootcamp. Apesar de existirem monitorias de soft skills e de carreira, aqui teremos apenas as mentorias técnicas.
 
 #### Mentoria 1 (03) - Projeto Eduzz: Explicando e prototipando a aplicação - :white_check_mark:
 Aprendizado sobre as melhores práticas na hora de criar um protótipo de uma aplicação.
