@@ -12,7 +12,7 @@
     - Diferença entre valor x referência.
     - Usar um framework de mercado pela compreensão e desenvolvimento. Evitar usar frameworks menores, caso não domine nenhum popular.
 
-# Framewrks recomendados
+# Frameworks recomendados
 
 1. Redux Toolkit - Gerenciamento de Estado
 2. MUI - Componentes UI
