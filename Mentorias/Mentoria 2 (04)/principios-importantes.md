@@ -14,8 +14,14 @@
 
 # Frameworks recomendados
 
-1. Redux Toolkit - Gerenciamento de Estado
+1. Redux Toolkit - Gerenciamento de Estado (Global)
 2. MUI - Componentes UI
 3. Formik - Validação de Formulários 
 4. Emotion/Styled Components - Estilização
+
+#Opcionais e Extras
+
+1. Next.JS - Leitura do HTML por mecanismos de busca.
+2. RxJs - Observa mudança de estados, adiciona funcionalidades pra melhoria de performance(Ex.: Delay p/ mudança no Front)
+
 
