@@ -46,7 +46,7 @@ Nesta pasta teremos os conteúdos técnicos (hard skills) ministrados pelos espe
 #### Mentoria 1 (03) - Projeto Eduzz: Explicando e prototipando a aplicação - :white_check_mark:
 Aprendizado sobre as melhores práticas na hora de criar um protótipo de uma aplicação.
 
-#### Mentoria 2 (04) - Projeto Eduzz: Componentizando a aplicação e criano interfaces Web e Mobile - :black_square_button:
+#### Mentoria 2 (04) - Projeto Eduzz: Componentizando a aplicação e criano interfaces Web e Mobile - :white_check_mark:
 Aprendizado sobre criação de elementos altamente reaproveitáveis no FrontEnd.
 
 #### Mentoria 3 (05) - Projeto Eduzz: Criando a base de dados pra suportar a aplicação - :black_square_button:
