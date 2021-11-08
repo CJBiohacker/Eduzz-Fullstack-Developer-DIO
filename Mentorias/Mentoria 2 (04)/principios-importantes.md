@@ -1,5 +1,5 @@
 # Principios Importantes na hora de Componentizar a aplicação
-
+***
 1. Estrutura de Pastas
     - Defina uma pasta específica pra armazenar os componentes. Dependendo de como você organiza, pode ajudar ou dificultar o entendimento do seu código.
     - Quem tomará conta do seu estado global ?
@@ -13,15 +13,14 @@
     - Usar um framework de mercado pela compreensão e desenvolvimento. Evitar usar frameworks menores, caso não domine nenhum popular.
 
 # Frameworks recomendados
-
+***
 1. Redux Toolkit - Gerenciamento de Estado (Global)
 2. MUI - Componentes UI
 3. Formik - Validação de Formulários 
 4. Emotion/Styled Components - Estilização
 
-#Opcionais e Extras
-
+# Opcionais e Extras
+***
 1. Next.JS - Leitura do HTML por mecanismos de busca.
 2. RxJs - Observa mudança de estados, adiciona funcionalidades pra melhoria de performance(Ex.: Delay p/ mudança no Front)
-
-
+3. Repo de um Projeto Eduzz - https://github.com/eduzz/mentoria-dio/tree/master/front
